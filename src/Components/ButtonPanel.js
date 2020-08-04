@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class ButtonPanel extends Component {
   render() {
-  const btn = this.props;
-  return <div className="Button-Panel">{ btn.children }</div>;
+    return <div className="Button-Panel">{ this.props.children }</div>;
   }
 }
+
+ButtonPanel.propTypes = {
+  children: PropTypes.string
+};
+
 export default ButtonPanel;

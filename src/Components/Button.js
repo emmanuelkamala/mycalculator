@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Button extends Component {
   render() {
-    const test = this.props;
     return (
-    <div>{ test.label }</div>
+      <div>{ this.props.label }</div>
     );
   }
 }
+
+Button.propTypes = {
+  label: PropTypes.string
+};
 
 export default Button;
