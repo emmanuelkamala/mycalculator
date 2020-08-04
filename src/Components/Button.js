@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 class Button extends Component {
   render() {
+    const test = this.props;
     return (
-    <div>{ this.props.label }</div>
+    <div>{ test.label }</div>
     );
   }
 }
