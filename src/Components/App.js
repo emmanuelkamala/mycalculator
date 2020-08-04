@@ -21,6 +21,7 @@ class App extends Component {
           <Button label="8" value="8" />
           <Button label="5" value="5" />
           <Button label="2" value="2" />
+          <Button label="" value="" />
 
           <Button label="%" value="*" />
           <Button label="9" value="9" />
