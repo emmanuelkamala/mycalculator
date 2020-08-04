@@ -27,7 +27,7 @@ Open your terminal or text editor and use next command
 
         Run 'npm install' command to install package dependencies.
 
-# Run the index file
+## Run the index file
 
 To run the index file and see the project; enter this command on the command line:
 'npm start'
