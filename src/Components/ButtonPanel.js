@@ -7,8 +7,6 @@ class ButtonPanel extends Component {
   }
 }
 
-ButtonPanel.propTypes = {
-  children: PropTypes.string
-};
+ButtonPanel.propTypes = { children: PropTypes.string };
 
 export default ButtonPanel;

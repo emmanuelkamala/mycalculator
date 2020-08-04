@@ -9,8 +9,6 @@ class Button extends Component {
   }
 }
 
-Button.propTypes = {
-  label: PropTypes.string
-};
+Button.propTypes = { label: PropTypes.string };
 
 export default Button;
