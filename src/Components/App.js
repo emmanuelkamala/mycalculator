@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Display from './Display';
 import Button from './Button';
 import ButtonPanel from './ButtonPanel';
