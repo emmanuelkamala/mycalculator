@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Display from './Display';
 import Button from './Button';
 import ButtonPanel from './ButtonPanel';
+import PropTypes from 'prop-types';
 
 class App extends Component {
   render() {
@@ -35,5 +36,7 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = { div: PropTypes.object };
 
 export default App;
