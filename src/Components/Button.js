@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class Button extends Component {
   render() {
     return (
-      <div>{ this.props.label }</div>
+      <div className="button">{ this.props.label }</div>
     );
   }
 }

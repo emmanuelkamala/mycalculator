@@ -7,6 +7,6 @@ class ButtonPanel extends Component {
   }
 }
 
-ButtonPanel.propTypes = { children: PropTypes.string };
+ButtonPanel.propTypes = { children: PropTypes.array };
 
 export default ButtonPanel;
