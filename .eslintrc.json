@@ -16,6 +16,10 @@
     "settings": {
         "version": "detect"
     },
+    "react/prop-types": [
+        "enabled",
+        { "ignore": "ignore", "customValidators": "customValidator" }
+      ],
     "rules": {
       "no-shadow": "off",
       "no-param-reassign": "off",
