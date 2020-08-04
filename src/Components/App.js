@@ -33,8 +33,8 @@ class App extends Component {
           <Button label="=" size="2" value="equal" />
         </ButtonPanel>
       </div>
-    )
-  };
-};
+    );
+  }
+}
 
 export default App;

@@ -6,8 +6,8 @@ class Button extends Component {
       <div>
         {this.props.label}
       </div>
-    )
-  };
-};
+    );
+  }
+}
 
 export default Button;
