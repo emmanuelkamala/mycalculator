@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Display from './Display';
 import Button from './Button';
 import ButtonPanel from './ButtonPanel';
-import PropTypes from 'prop-types';
 
 class App extends Component {
   render() {
     return (
-      <div className="app">
+      <div className="app"> { this.props.children }
         <Display />
         <ButtonPanel>
           <Button label="C" value="clear" />
@@ -37,6 +37,6 @@ class App extends Component {
   }
 }
 
-App.propTypes = { div: PropTypes.object };
+App.propTypes = { children: PropTypes.node };
 
 export default App;
