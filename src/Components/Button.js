@@ -1,13 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from 'react'
+class Button extends Component {
+  render() {
+    return (
+      <div
+        onClick={this.props.onClick}
+        className="Button"
+        data-size={this.props.size}
+        data-value={this.props.value}
+      >
+        {this.props.label}
+      </div>
+    )
+  }
+}
 
-const Button = name => {
-  return (
-    <button type="button">{name}</button>
-  );
-};
-
-Button.propTypes = {
-  name: PropTypes.string.isRequired,
-};
 export default Button;
