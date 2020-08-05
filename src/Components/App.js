@@ -13,13 +13,12 @@ const app = () => {
         <Button name="7" value="7" />
         <Button name="4" value="4" />
         <Button name="1" value="1" />
-        <Button name="0" value="0" />
+        <Button name="0" value="0" wide='50%' />
 
         <Button name="+/-" value="/" />
         <Button name="8" value="8" />
         <Button name="5" value="5" />
         <Button name="2" value="2" />
-        <Button name="" value="" />
 
         <Button name="%" value="*" />
         <Button name="9" value="9" />
@@ -27,11 +26,11 @@ const app = () => {
         <Button name="3" value="3" />
         <Button name="." value="fullstop" />
 
-        <Button name="/" size="2" value="/" />
-        <Button name="×" size="2" value="×" />
-        <Button name="-" size="2" value="-" />
-        <Button name="+" size="2" value="+" />
-        <Button name="=" size="2" value="equal" />
+        <Button name="×" value="×" />
+        <Button name="/" value="/" />
+        <Button name="-" value="-" />
+        <Button name="+" value="+" />
+        <Button name="=" value="equal" />
       </ButtonPanel>
     </div>
   )

@@ -105,6 +105,10 @@ body {
   min-width: 25%;
 }
 
+.button .zero {
+    width: 50%;
+}
+
 .Button[data-size="2"] { height: 40%; }
 
 .Button[data-value="null"] { pointer-events: none; }
