@@ -4,8 +4,7 @@ import Button from './Button';
 import ButtonPanel from './ButtonPanel';
 import './App.css';
 
-const app = () => { 
-  return (
+const app = () => (
     <div className="app">
       <Display result = '0' />
       <ButtonPanel>
@@ -35,6 +34,5 @@ const app = () => {
       </ButtonPanel>
     </div>
   );
-};
 
 export default app;
