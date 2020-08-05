@@ -4,7 +4,7 @@ import Button from './Button';
 import ButtonPanel from './ButtonPanel';
 import './App.css';
 
-const app = () => {
+const app = () => { 
   return (
     <div className="app">
       <Display result = '0' />
@@ -34,7 +34,7 @@ const app = () => {
         <Button name="=" size="2" value="equal" />
       </ButtonPanel>
     </div>
-  )
-}
+  );
+};
 
 export default app;
