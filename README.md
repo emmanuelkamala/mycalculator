@@ -2,7 +2,7 @@
 
 This is a project for building a Calculator using ReactJS Library.
 
-![screenshot](./dist/images/calc.png)
+![screenshot](./public/images/calculator.png)
 
 ## Built With
 
