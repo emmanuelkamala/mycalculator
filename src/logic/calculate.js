@@ -23,7 +23,7 @@ const attatchButton = (target, adder) => {
   splitTarget.push(adder);
   return splitTarget.join('');
 };
-const invertNumber = (text) => {
+const invertNumber = text => {
   const value = text.split('');
   if (value[0] === '-') {
     value.shift();
