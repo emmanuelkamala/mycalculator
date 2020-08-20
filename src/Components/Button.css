@@ -7,7 +7,7 @@
 }
 
 .btn {
-  background: whitesmoke;
+  background: lightgray;
   color: black;
   display: flex;
   justify-content: center;
@@ -26,6 +26,6 @@
 }
 
 .operator {
-  background: rebeccapurple;
+  background: orangered;
   color: whitesmoke;
 }
