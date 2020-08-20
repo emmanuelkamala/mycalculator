@@ -1,8 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Display.css';
 
-const display = (props) => <div className="Display"> { props.result } </div>;
+const Display = ({ result, operator }) => (
+  <div className="display">
+    <div className="symbol">{ operator }</div>
+    <div className="result">{ result }</div>
+  </div>
+);
 
-display.propTypes = { result: PropTypes.number };
-
-export default display;
+Display.defaultProps = {
+  result: '0',
+  operator: '=',
+};
+Display.propTypes = {
+  result: PropTypes.string,
+  operator: PropTypes.string,
+};
+export default Display;

@@ -1,0 +1,13 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    border: double;
+}
