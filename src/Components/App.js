@@ -17,9 +17,10 @@ class App extends Component {
       renderResult: false,
       error: false,
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = btnName => {
+  handleClick(btnName) {
     this.setState(prevState => calculate(prevState, btnName));
   }
 
