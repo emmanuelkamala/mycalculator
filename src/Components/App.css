@@ -1,13 +1,14 @@
-html {
-    font-family: 'Open Sans', sans-serif;
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #app {
-    width: 700px;
-    margin: 0 auto;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .row {
-    display: flex;
-    border: double;
+  display: flex;
+  border: double;
 }
