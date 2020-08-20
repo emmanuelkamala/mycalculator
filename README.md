@@ -6,10 +6,13 @@ This is a project for building a Calculator using ReactJS Library.
 
 ## Built With
 
-- HTML
+- Node.js
+- React
+- React-DOM
+- React-Create-App
+- npm
 - CSS
-- ReactJS
-- Webpack
+- ES6
 
 
 ## Live Version
