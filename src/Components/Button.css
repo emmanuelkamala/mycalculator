@@ -15,7 +15,7 @@
   height: 90px;
   font-size: 2rem;
 }
-  
+
 .btn:hover {
   cursor: pointer;
 }
@@ -27,6 +27,4 @@
 
 .operator {
   background: rebeccapurple;
-  color: whitesmoke;
-}
-  
+  color: whitesmoke;}
