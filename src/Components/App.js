@@ -19,7 +19,7 @@ class App extends Component {
     };
   }
 
-  handleClick = (btnName) => {
+  handleClick = btnName => {
     this.setState(prevState => calculate(prevState, btnName));
   }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = (props) => {
+const ButtonPanel = props => {
   const { clickHandler } = props;
   const firstrowChars = ['AC', '+/-', '%', '/'];
   const secondRowChars = ['7', '8', '9', 'X'];
