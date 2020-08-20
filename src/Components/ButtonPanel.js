@@ -1,7 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = () => {
+const ButtonPanel = (props) => {
+  const { clickHandler } = props;
   const firstrowChars = ['AC', '+/-', '%', '/'];
   const secondRowChars = ['7', '8', '9', 'X'];
   const thirdRowChars = ['4', '5', '6', '-'];
@@ -18,12 +20,17 @@ const ButtonPanel = () => {
               name={String(char)}
               color={['+', '-', 'X', '/', '='].includes(char)}
               wide={char === '0'}
+              clickHandler={clickHandler}
             />
           ))}
         </div>
       ))}
     </div>
   );
+};
+
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;
