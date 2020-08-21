@@ -2,19 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Display.css';
 
-const Display = ({ result, operator }) => (
+const Display = ({ outcome, operator }) => (
   <div className="display">
     <div className="symbol">{ operator }</div>
-    <div className="result">{ result }</div>
+    <div className="outcome">{ outcome }</div>
   </div>
 );
 
 Display.defaultProps = {
-  result: '0',
+  outcome: '0',
   operator: '=',
 };
 Display.propTypes = {
-  result: PropTypes.string,
+  outcome: PropTypes.string,
   operator: PropTypes.string,
 };
 export default Display;
