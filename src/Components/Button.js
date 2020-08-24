@@ -12,12 +12,9 @@ const Button = ({
   );
 };
 
-Button.defaultProps = {
-  color: 'orangeColor',
-};
-
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
   wide: PropTypes.bool.isRequired,
 };
 
