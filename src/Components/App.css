@@ -11,4 +11,5 @@ body {
 .row {
   display: flex;
   border: double;
+  height: 100px;
 }
